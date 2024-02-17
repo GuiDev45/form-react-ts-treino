@@ -1,0 +1,59 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove hyperlinks text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Remove default styles on details, summary elements */
+details,
+summary {
+  display: block;
+}
+
+/* Remove default styles on table elements */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset images to display as block */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
