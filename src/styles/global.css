@@ -1,3 +1,23 @@
+/* global.css */
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #2E3740;
+}
+
 h1 {
-  color: red;
+  color: #1FCE6D;
+}
+
+p {
+  font-size: 16px;
+  color: #6D7781;
+}
+
+.primary-color {
+  color: #979EA5;
+}
+
+.button {
+  background-color: #1FCE6D;
+  color: #FFFFFF;
 }
