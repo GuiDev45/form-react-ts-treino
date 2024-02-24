@@ -3,7 +3,7 @@ import "./home.css";
 import useAddressSearch from "../../hooks/useAddressSearch";
 
 export default function Home() {
-  const { cep, endereco, handleChangeCep, handleSubmit } = useAddressSearch();
+  const { endereco, handleSubmit, register } = useAddressSearch();
 
   return (
     <div className="container-layout">
@@ -14,8 +14,7 @@ export default function Home() {
         <input
           type="text"
           placeholder="Digite seu CEP"
-          value={cep}
-          onChange={handleChangeCep}
+          {...register("cep")} // Utilizando o register para registrar o campo "cep"
         />
         <button type="submit">Buscar</button>
         {endereco && (
